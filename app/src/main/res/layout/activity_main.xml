@@ -19,12 +19,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="startLesson"
-                android:text="Lesson 1. Hello Kitty" />
+                android:text="Урок 1. Привет, котик!" />
 
             <Button
+                android:id="@+id/crowCounterLessonButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button 2" />
+                android:onClick="startLesson"
+                android:text="Урок 2. Считаем ворон" />
 
             <Button
                 android:layout_width="match_parent"
