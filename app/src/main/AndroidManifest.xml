@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".helloKittyActivity" />
-        <activity android:name=".crowCounterActivity"></activity>
+        <activity android:name=".crowCounterActivity" />
+        <activity android:name=".trafficLightsActivity"></activity>
     </application>
 
 </manifest>

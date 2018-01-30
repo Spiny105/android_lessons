@@ -25,8 +25,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
 
+            //Урок 2. Считаем ворон
             case R.id.crowCounterLessonButton:
                 intent = new Intent(this, crowCounterActivity.class);
+                startActivity(intent);
+                break;
+
+            //Урок 3. Светофор
+            case R.id.traficLigthButton:
+                intent = new Intent(this, trafficLightsActivity.class);
                 startActivity(intent);
                 break;
         }

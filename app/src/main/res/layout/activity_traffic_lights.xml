@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/traficLigthLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.leont.androidlessons.trafficLightsActivity">
+
+    <Button
+        android:id="@+id/greenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Зеленый"
+        app:layout_constraintBottom_toTopOf="@+id/yellowButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="changeBackGroundColor"/>
+
+    <Button
+        android:id="@+id/yellowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Желтый"
+        app:layout_constraintBottom_toTopOf="@+id/redButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/greenButton"
+        android:onClick="changeBackGroundColor"/>
+
+    <Button
+        android:id="@+id/redButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Красный"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowButton"
+        android:onClick="changeBackGroundColor"/>
+</android.support.constraint.ConstraintLayout>
