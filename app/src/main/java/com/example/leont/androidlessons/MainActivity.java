@@ -36,6 +36,27 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(this, trafficLightsActivity.class);
                 startActivity(intent);
                 break;
+
+            //Урок 4. Оринтация устройства
+            case R.id.orientationButton:
+                intent = new Intent(this, orientationActivity.class);
+                startActivity(intent);
+                break;
+
+            //Урок 5. Играемся с Toast
+            case R.id.toastButton:
+                intent = new Intent(this, toastActivity.class);
+                startActivity(intent);
+                break;
+
+            //Урок 6. Играемся с Basic Activity
+            case R.id.basicActivityButton:
+                intent = new Intent(this, basicActivity.class);
+                startActivity(intent);
+                break;
+
+            default:
+                break;
         }
     }
 }

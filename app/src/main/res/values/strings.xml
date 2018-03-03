@@ -3,4 +3,5 @@
     <string name="helloString">Привет!</string>
     <string name="crowString">Считать ворон</string>
     <string name="catCountString">Считать котов</string>
+    <string name="title_activity_basic">basicActivity</string>
 </resources>

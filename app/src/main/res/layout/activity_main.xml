@@ -19,71 +19,90 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="startLesson"
-                android:text="Урок 1. Привет, котик!" />
+                android:text="Урок 1. Привет, котик!"
+                android:textAllCaps="false"/>
 
             <Button
                 android:id="@+id/crowCounterLessonButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="startLesson"
-                android:text="Урок 2. Считаем ворон" />
+                android:text="Урок 2. Считаем ворон"
+                android:textAllCaps="false"/>
 
             <Button
                 android:id="@+id/traficLigthButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Урок 3. Светофор"
-                android:onClick="startLesson"/>
+                android:onClick="startLesson"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/orientationButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startLesson"
+                android:text="Урок 4. Ориентация устройства"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/toastButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startLesson"
+                android:text="Урок 5. Играемся с Toast"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/basicActivityButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startLesson"
+                android:text="Урок 6. Basic Activity"
+                android:textAllCaps="false" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button 4" />
+                android:text="Button 7"
+                android:textAllCaps="false"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button 5" />
+                android:text="Button 8"
+                android:textAllCaps="false"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button 6" />
+                android:text="Button 9"
+                android:textAllCaps="false"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button 7" />
+                android:text="Button 10"
+                android:textAllCaps="false"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button 8" />
+                android:text="Button 11"
+                android:textAllCaps="false"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button 9" />
+                android:text="Button 12"
+                android:textAllCaps="false"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button 10" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Button 11" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Button 12" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Button 13" />
+                android:text="Button 13"
+                android:textAllCaps="false"/>
         </LinearLayout>
     </ScrollView>
 

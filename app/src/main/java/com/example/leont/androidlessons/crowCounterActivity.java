@@ -1,6 +1,7 @@
 package com.example.leont.androidlessons;
 
 import android.app.Activity;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -24,6 +25,8 @@ public class crowCounterActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.crow_counter_activity);
+
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         crowCountTextView = findViewById(R.id.crowTextView);
         helloTextView = findViewById(R.id.helloTextView);

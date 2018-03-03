@@ -18,7 +18,13 @@
         </activity>
         <activity android:name=".helloKittyActivity" />
         <activity android:name=".crowCounterActivity" />
-        <activity android:name=".trafficLightsActivity"></activity>
+        <activity android:name=".trafficLightsActivity" />
+        <activity android:name=".orientationActivity" />
+        <activity android:name=".toastActivity" />
+        <activity
+            android:name=".basicActivity"
+            android:label="@string/title_activity_basic"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
